@@ -6,16 +6,23 @@ Silent Wolf Labs is an independent software lab focused on practical open-source
 
 The projects here may span different problem spaces, but they share the same goal: build focused tools that are useful, understandable, and easy to work with.
 
-## Project Families
+## Projects
 
-### 🐺 AgentSkillWolf
+### [dependency-upgrade-audit](https://github.com/Silent-Wolf-Labs/dependency-upgrade-audit)
 
-Tools, skills, and workflows for coding agents and developer automation.
+Tools for auditing dependencies and planning safe upgrades.
 
+### [gsmtap-rs](https://github.com/Silent-Wolf-Labs/gsmtap-rs)
 
-### 📡 SignalWolf
+Creating a Rust crate to test the libosmocore-rs conversion.
 
-Networking, protocol, packet-analysis, and communications tooling.
+### [codex-plugins](https://github.com/Silent-Wolf-Labs/codex-plugins)
+
+Plugins and skills for coding-agent workflows. The skills use [Codex](https://github.com/openai/codex) and [Claude Code](https://github.com/anthropics/claude-code), which can be installed from GitHub.
+
+## Follow Along
+
+Watch updates and project videos on the [Silent Wolf Labs YouTube channel](https://www.youtube.com/@SilentWolfLabs).
 
 ## Status
 
