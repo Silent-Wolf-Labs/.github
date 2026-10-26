@@ -14,7 +14,11 @@ Tools for auditing dependencies and planning safe upgrades.
 
 ### [gsmtap-rs](https://github.com/Silent-Wolf-Labs/gsmtap-rs)
 
-Creating a Rust crate to test the libosmocore-rs conversion.
+A Rust GSMTAP parser and encoder, with a web workbench for watching, relaying and modifying live GSMTAP traffic. It also holds the libosmocore reference harnesses whose recorded C outputs osmocore-rs is tested against. Available on [crates.io](https://crates.io/crates/gsmtap-rs).
+
+### [osmocore-rs](https://github.com/Silent-Wolf-Labs/osmocore-rs)
+
+Idiomatic Rust implementations of selected [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore) functionality: message buffers, bit and encoding utilities, CRC and convolutional coding, timers, finite state machines, rate counters and GSMTAP. Behavior is checked against recorded outputs from the C library. Available on [crates.io](https://crates.io/crates/osmocore-rs).
 
 ### [codex-plugins](https://github.com/Silent-Wolf-Labs/codex-plugins)
 
